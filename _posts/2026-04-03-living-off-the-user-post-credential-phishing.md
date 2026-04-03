@@ -13,13 +13,13 @@ image:
 
 > *Little pig, little pig... let me in.*
 
-Not by the hair on your chinny chin chin? That's fine. I'm not coming through the door — I'm already past it. I walked in on your session token. I rode in on your OAuth consent. I climbed through the window your clipboard left open when you clicked that CAPTCHA.
+That's the thing about modern phishing — the front door isn't the play anymore. Passwords don't get you in. MFA doesn't keep attackers out. And FIDO2 security keys? There are ways to make the login page forget they exist.
 
-That's the thing about modern phishing — the front door isn't the play anymore. Passwords don't get you in. MFA doesn't keep me out. And your FIDO2 security key? I'll make your own login page forget it exists.
+This is **Living Off the User** — the complete field guide to post-credential phishing. No stolen passwords. No MFA codes intercepted. No binaries dropped to disk. Instead, the user *becomes* the payload delivery mechanism. Their own actions — clicking a CAPTCHA, pasting a "file path," approving an OAuth prompt — become the execution chain.
 
-This is **Living Off the User** — the field guide to post-credential phishing that doesn't need your password, doesn't need your MFA code, and doesn't drop a single binary on disk. The user becomes the payload. Their own actions become the execution engine. Legitimate system functionality becomes the attack vector.
+Every technique mapped. Every decision point documented. Every detection opportunity laid out for the blue team.
 
-Lucial is thirsty. Let's feed her.
+Let's get into it.
 
 ---
 
@@ -322,13 +322,13 @@ For operators: master the decision matrix. Know when to use AiTM vs Device Code 
 
 For defenders: the detection opportunities exist at every stage. Device Code flow monitoring, consent grant governance, authentication method analysis, and continuous access evaluation are your highest-ROI controls.
 
-If you're not monitoring these today — well...
+If you're not monitoring these today, you're the one getting lived off.
 
-*I just slid my d*** down your throat, and you thanked me for it.*
-
-Yeah. Start monitoring.
+*— 0xNegan*
 
 ---
+
+**Subscribe:** [YouTube](https://youtube.com/@negansec) for walkthroughs and deep dives.
 
 **Next up:**  
 → *The OSINT Kill Chain* — digital investigations, credential leak discovery, and blockchain analysis  
@@ -350,7 +350,6 @@ Yeah. Start monitoring.
 
 ---
 
-*— 0xNegan*  
-*Lucial is thirsty.*
+*— 0xNegan*
 
-[LinkedIn](https://www.linkedin.com/in/ahmed-13b6bb279) · [YouTube](https://youtube.com/@negansec) · [Telegram: Macroc](https://t.me/Macroc) · [Medium](https://medium.com/@CipherHawk/)
+[LinkedIn](https://www.linkedin.com/in/ahmed-13b6bb279) · [YouTube](https://youtube.com/@negansec) · [Telegram: Macroc](https://t.me/Macroc) · [Medium](https://medium.com/@CipherHawk/) · [Sherlock](https://audits.sherlock.xyz/watson/0xNegan)
