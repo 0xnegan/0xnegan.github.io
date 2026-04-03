@@ -1,0 +1,21 @@
+/* ============================================================
+   0xNegan — Custom Chirpy Theme Variable Overrides
+   Brand Identity: Crimson Red + Amber Gold accents on dark
+   ============================================================ */
+
+/* --- Core Brand Colors --- */
+$theme-color: #DC2626;               /* Primary — crimson red */
+
+/* Sidebar */
+$sidebar-bg: #0f0f0f;                /* Near-black sidebar */
+$sidebar-active-color: #DC2626;
+
+/* Dark mode overrides */
+$dark-mode-bg: #0a0a0a;
+
+/* --- Typography --- */
+$font-family-heading: 'JetBrains Mono', 'Fira Code', monospace;
+$font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+/* --- Code Blocks --- */
+$code-font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
