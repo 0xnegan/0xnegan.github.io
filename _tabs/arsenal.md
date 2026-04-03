@@ -4,45 +4,34 @@ order: 4
 title: Arsenal
 ---
 
-> *"You can breathe. You can blink. You can cry. Hell, you're all gonna be doing that."*
-
----
-
 ## Published Frameworks
 
 ### Network Penetration Testing — Complete Methodology
-> **200+ saves · 7,000+ visits** · Community-adopted reference
+200+ saves · 7,000+ visits · Community-adopted reference. Complete network pentesting framework — reconnaissance through post-exploitation with full command reference.
 
-Comprehensive network pentesting framework with full command reference — recon through post-exploitation. Built from real engagements.
-
-[**Read on Notion →**](https://spangle-snail-0fe.notion.site/Network-Penetration-Testing-Complete-Methodology-48b89f2cef9d41c1a7988acdd8c8a0fb)
-
----
+[**View on Notion →**](https://spangle-snail-0fe.notion.site/Network-Penetration-Testing-Complete-Methodology-48b89f2cef9d41c1a7988acdd8c8a0fb)
 
 ### Red Team Operations & Adversary Simulation Framework
-> Full kill-chain adversary simulation methodology
+End-to-end adversary simulation methodology: infrastructure, initial access, execution, persistence, lateral movement, exfiltration. Maps to MITRE ATT&CK with real-world CRTO tradecraft.
 
-End-to-end red team operations framework: infrastructure, initial access, execution, persistence, lateral movement, exfiltration. Maps to MITRE ATT&CK.
-
-[**Read on Notion →**](https://chemical-azimuth-aa6.notion.site/Red-Team-Operations-Adversary-Simulation-2e45fe61924981098a08c710b06fa8c1)
+[**View on Notion →**](https://chemical-azimuth-aa6.notion.site/Red-Team-Operations-Adversary-Simulation-2e45fe61924981098a08c710b06fa8c1)
 
 ---
 
 ## Projects
 
 ### CipherSight AI Security Framework
-> BSc Graduation Project — AI-Powered Pentesting Automation
 
-Automated pentesting framework integrating multi-tool reconnaissance → fingerprinting → subdomain discovery → endpoint enumeration → Nuclei vulnerability detection → AI-powered classification and reporting.
+Automated pentesting framework integrating:
 
-**AI Components:**
-- Fine-tuned **RoBERTa** model on NVD CVE data (2016-2023) for accurate vulnerability classification
-- AI reporting engine for executive summaries and automated remediation strategies
-- Mitigation engine providing context-aware fixes based on vulnerability type
+1. **Reconnaissance** — Multi-tool recon → fingerprinting → alive subdomain filtering → endpoint and directory discovery
+2. **Detection** — Nuclei-powered vulnerability scanning
+3. **AI Classification** — Fine-tuned RoBERTa model trained on NVD CVE data (2016-2023) for accurate vulnerability classification
+4. **AI Reporting** — Executive summary generation with automated mitigation engine providing context-aware remediation strategies
 
 ---
 
-## Research Blog — Upcoming
+## Research — Published & Upcoming
 
 | Topic | Status | Category |
 |---|---|---|
@@ -53,10 +42,12 @@ Automated pentesting framework integrating multi-tool reconnaissance → fingerp
 
 ---
 
-## Content & Community
+## Channels
 
 | Platform | Link |
 |---|---|
 | **YouTube** | [@negansec](https://youtube.com/@negansec) |
 | **Medium** | [@CipherHawk](https://medium.com/@CipherHawk/) |
 | **LinkedIn** | [Profile](https://www.linkedin.com/in/ahmed-13b6bb279) |
+| **Telegram** | Macroc |
+| **Discord** | #PCProdigy5311 |
