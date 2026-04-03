@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="red-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:#ef4444"/>
+    </linearGradient>
+    <linearGradient id="blue-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="green-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#059669"/>
+      <stop offset="100%" style="stop-color:#10b981"/>
+    </linearGradient>
+    <linearGradient id="purple-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="orange-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d97706"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g opacity="0.05" stroke="#ffffff" stroke-width="0.5">
+    <line x1="0" y1="0" x2="0" y2="630" />
+    <line x1="60" y1="0" x2="60" y2="630" />
+    <line x1="120" y1="0" x2="120" y2="630" />
+    <line x1="180" y1="0" x2="180" y2="630" />
+    <line x1="240" y1="0" x2="240" y2="630" />
+    <line x1="300" y1="0" x2="300" y2="630" />
+    <line x1="360" y1="0" x2="360" y2="630" />
+    <line x1="420" y1="0" x2="420" y2="630" />
+    <line x1="480" y1="0" x2="480" y2="630" />
+    <line x1="540" y1="0" x2="540" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="660" y1="0" x2="660" y2="630" />
+    <line x1="720" y1="0" x2="720" y2="630" />
+    <line x1="780" y1="0" x2="780" y2="630" />
+    <line x1="840" y1="0" x2="840" y2="630" />
+    <line x1="900" y1="0" x2="900" y2="630" />
+    <line x1="960" y1="0" x2="960" y2="630" />
+    <line x1="1020" y1="0" x2="1020" y2="630" />
+    <line x1="1080" y1="0" x2="1080" y2="630" />
+    <line x1="1140" y1="0" x2="1140" y2="630" />
+    <line x1="1200" y1="0" x2="1200" y2="630" />
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="360" x2="1200" y2="360" />
+    <line x1="0" y1="420" x2="1200" y2="420" />
+    <line x1="0" y1="480" x2="1200" y2="480" />
+    <line x1="0" y1="540" x2="1200" y2="540" />
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="80" text-anchor="middle" font-size="38" font-weight="700" fill="#ffffff" letter-spacing="1">LIVING OFF THE USER</text>
+  <text x="600" y="115" text-anchor="middle" font-size="16" fill="#94a3b8" letter-spacing="3" font-weight="300">A RED TEAM GUIDE TO POST-CREDENTIAL PHISHING</text>
+
+  <!-- Red accent line -->
+  <rect x="480" y="130" width="240" height="2" fill="url(#red-accent)" rx="1"/>
+
+  <!-- VICTIM box center top -->
+  <rect x="510" y="155" width="180" height="50" rx="6" fill="none" stroke="#ef4444" stroke-width="1.5" opacity="0.9"/>
+  <text x="600" y="175" text-anchor="middle" font-size="11" fill="#94a3b8" font-weight="400">TARGET</text>
+  <text x="600" y="193" text-anchor="middle" font-size="14" fill="#ffffff" font-weight="600">VICTIM</text>
+
+  <!-- Attack lines from victim -->
+  <line x1="540" y1="205" x2="200" y2="280" stroke="#ef4444" stroke-width="1" opacity="0.4" stroke-dasharray="4,4"/>
+  <line x1="570" y1="205" x2="440" y2="280" stroke="#3b82f6" stroke-width="1" opacity="0.4" stroke-dasharray="4,4"/>
+  <line x1="630" y1="205" x2="760" y2="280" stroke="#10b981" stroke-width="1" opacity="0.4" stroke-dasharray="4,4"/>
+  <line x1="660" y1="205" x2="1000" y2="280" stroke="#8b5cf6" stroke-width="1" opacity="0.4" stroke-dasharray="4,4"/>
+
+  <!-- LOU EXECUTION Column -->
+  <rect x="70" y="270" width="260" height="200" rx="8" fill="#1e1e2e" stroke="#ef4444" stroke-width="1" opacity="0.8"/>
+  <rect x="70" y="270" width="260" height="30" rx="8" fill="url(#red-accent)" opacity="0.15"/>
+  <text x="200" y="291" text-anchor="middle" font-size="12" fill="#ef4444" font-weight="700" letter-spacing="1">LOU EXECUTION</text>
+
+  <text x="90" y="320" font-size="11" fill="#ffffff" font-weight="500">▸ ClickFix</text>
+  <text x="90" y="335" font-size="9" fill="#64748b">  Fake CAPTCHA → clipboard inject</text>
+  <text x="90" y="358" font-size="11" fill="#ffffff" font-weight="500">▸ FileFix</text>
+  <text x="90" y="373" font-size="9" fill="#64748b">  Fake file share → Explorer exec</text>
+  <text x="90" y="396" font-size="11" fill="#ffffff" font-weight="500">▸ Double Clickjacking</text>
+  <text x="90" y="411" font-size="9" fill="#64748b">  UI overlay → OAuth consent</text>
+  <text x="90" y="434" font-size="11" fill="#ffffff" font-weight="500">▸ HtaFix / Drive-By</text>
+  <text x="90" y="449" font-size="9" fill="#64748b">  HTA exec / auto-download</text>
+
+  <!-- IDENTITY ATTACKS Column -->
+  <rect x="355" y="270" width="260" height="200" rx="8" fill="#1e1e2e" stroke="#3b82f6" stroke-width="1" opacity="0.8"/>
+  <rect x="355" y="270" width="260" height="30" rx="8" fill="url(#blue-accent)" opacity="0.15"/>
+  <text x="485" y="291" text-anchor="middle" font-size="12" fill="#3b82f6" font-weight="700" letter-spacing="1">IDENTITY ATTACKS</text>
+
+  <text x="375" y="320" font-size="11" fill="#ffffff" font-weight="500">▸ AiTM (Evilginx)</text>
+  <text x="375" y="335" font-size="9" fill="#64748b">  Session cookie theft post-MFA</text>
+  <text x="375" y="358" font-size="11" fill="#ffffff" font-weight="500">▸ Device Code Phishing</text>
+  <text x="375" y="373" font-size="9" fill="#64748b">  Bypass ALL MFA — multi-cloud</text>
+  <text x="375" y="396" font-size="11" fill="#ffffff" font-weight="500">▸ MFA Downgrade</text>
+  <text x="375" y="411" font-size="9" fill="#64748b">  Force FIDO2 → TOTP/Push</text>
+  <text x="375" y="434" font-size="11" fill="#ffffff" font-weight="500">▸ Consent Grant</text>
+  <text x="375" y="449" font-size="9" fill="#64748b">  Persistent OAuth API access</text>
+
+  <!-- MULTI-CLOUD Column -->
+  <rect x="640" y="270" width="260" height="200" rx="8" fill="#1e1e2e" stroke="#10b981" stroke-width="1" opacity="0.8"/>
+  <rect x="640" y="270" width="260" height="30" rx="8" fill="url(#green-accent)" opacity="0.15"/>
+  <text x="770" y="291" text-anchor="middle" font-size="12" fill="#10b981" font-weight="700" letter-spacing="1">MULTI-CLOUD TARGETS</text>
+
+  <text x="660" y="320" font-size="11" fill="#ffffff" font-weight="500">▸ Azure / Entra ID</text>
+  <text x="660" y="335" font-size="9" fill="#64748b">  M365, Graph API, Azure DevOps</text>
+  <text x="660" y="358" font-size="11" fill="#ffffff" font-weight="500">▸ AWS SSO</text>
+  <text x="660" y="373" font-size="9" fill="#64748b">  Account enum, role escalation</text>
+  <text x="660" y="396" font-size="11" fill="#ffffff" font-weight="500">▸ GCP</text>
+  <text x="660" y="411" font-size="9" fill="#64748b">  Workspace, Cloud APIs</text>
+  <text x="660" y="434" font-size="11" fill="#ffffff" font-weight="500">▸ GitHub / GitLab</text>
+  <text x="660" y="449" font-size="9" fill="#64748b">  Source code, CI/CD, secrets</text>
+
+  <!-- OPSEC Column -->
+  <rect x="925" y="270" width="210" height="200" rx="8" fill="#1e1e2e" stroke="#8b5cf6" stroke-width="1" opacity="0.8"/>
+  <rect x="925" y="270" width="210" height="30" rx="8" fill="url(#purple-accent)" opacity="0.15"/>
+  <text x="1030" y="291" text-anchor="middle" font-size="12" fill="#8b5cf6" font-weight="700" letter-spacing="1">OPSEC &amp; INFRA</text>
+
+  <text x="945" y="320" font-size="11" fill="#ffffff" font-weight="500">▸ Domain OPSEC</text>
+  <text x="945" y="335" font-size="9" fill="#64748b">  Aging, categorization</text>
+  <text x="945" y="358" font-size="11" fill="#ffffff" font-weight="500">▸ CF Workers</text>
+  <text x="945" y="373" font-size="9" fill="#64748b">  Serverless deployment</text>
+  <text x="945" y="396" font-size="11" fill="#ffffff" font-weight="500">▸ Bot Evasion</text>
+  <text x="945" y="411" font-size="9" fill="#64748b">  UA/JS/TLS fingerprinting</text>
+  <text x="945" y="434" font-size="11" fill="#ffffff" font-weight="500">▸ Email Auth</text>
+  <text x="945" y="449" font-size="9" fill="#64748b">  SPF/DKIM/DMARC</text>
+
+  <!-- Bottom kill chain -->
+  <rect x="70" y="500" width="1065" height="50" rx="8" fill="#1e1e2e" stroke="#f59e0b" stroke-width="1" opacity="0.6"/>
+  <text x="600" y="520" text-anchor="middle" font-size="11" fill="#f59e0b" font-weight="700" letter-spacing="2">KILL CHAIN</text>
+  <text x="600" y="538" text-anchor="middle" font-size="10" fill="#94a3b8">
+    RECON → WEAPONIZE → DELIVER → EXPLOIT → CAPTURE → PERSIST → POST-ACCESS
+  </text>
+
+  <!-- Bottom branding -->
+  <text x="600" y="590" text-anchor="middle" font-size="14" fill="#ffffff" font-weight="600">0xNegan</text>
+  <text x="600" y="610" text-anchor="middle" font-size="10" fill="#64748b" letter-spacing="2">RED TEAM OPERATOR | CLOUD SECURITY RESEARCHER</text>
+</svg>
