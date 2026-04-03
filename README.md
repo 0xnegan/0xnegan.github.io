@@ -176,4 +176,4 @@ To use a custom domain like `0xnegan.com`:
 
 ---
 
-© 2026 Ahmed Hisham Hassan (0xNegan). All rights reserved.
+© 2026 0xNegan. All rights reserved.
