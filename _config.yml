@@ -1,19 +1,13 @@
-# ============================================================
-# 0xNegan — Site Configuration
-# ============================================================
-
 theme: jekyll-theme-chirpy
-
 lang: en
 timezone: Africa/Cairo
 
-# --- Branding ---
 title: "0xNegan"
-tagline: "Red Team Operator · Cloud Security Researcher · AI Red Teamer"
+tagline: "// they'll come knockin'. and i'll answer."
 description: >-
-  Offensive security research, cloud identity attacks, adversary simulation,
-  and AI red teaming. CRTO | COPO certified. Building attack chains that
-  mirror real-world adversaries.
+  Offensive security research — identity-layer attacks, cloud red teaming,
+  Web3 security auditing, and AI adversarial research. 100+ vulnerabilities.
+  5+ Hall of Fame recognitions. The bat doesn't ask twice.
 
 url: "https://0xnegan.github.io"
 
@@ -22,30 +16,23 @@ github:
 
 social:
   name: 0xNegan
-  email: chaindecompiler@outlook.com
   links:
     - https://www.linkedin.com/in/ahmed-13b6bb279
     - https://github.com/0xnegan
     - https://youtube.com/@negansec
 
-# --- Display ---
-theme_mode: dark  # Force dark mode as default
-
-avatar: "/assets/img/avatar.png"
-
+theme_mode: dark
+avatar: "/assets/img/site/avatar.png"
 toc: true
 
-# --- Comments (configure later) ---
 comments:
   provider:
 
-# --- PWA ---
 pwa:
   enabled: true
 
 paginate: 10
 
-# --- Build ---
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
