@@ -64,3 +64,9 @@ footer { font-size: 0.65rem; color: rgba(240,237,230,0.15); }
 .stat-card .stat-number { font-family: 'Space Grotesk', sans-serif; font-size: 1.7rem; font-weight: 700; color: #c4403a; display: block; line-height: 1.1; }
 .stat-card .stat-label { font-size: 0.65rem; color: rgba(240,237,230,0.3); margin-top: 0.4rem; display: block; }
 .cert-badge { display: inline-block; padding: 3px 9px; margin: 2px; border: 1px solid rgba(196,64,58,0.12); border-radius: 3px; font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; color: rgba(196,64,58,0.7); background: rgba(196,64,58,0.02); }
+
+/* Private repo lock styling */
+.post-content blockquote em:first-child {
+  color: rgba(196,64,58,0.6);
+  font-size: 0.85rem;
+}

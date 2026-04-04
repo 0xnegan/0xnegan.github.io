@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 900" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect width="400" height="900" fill="#0a0a0a"/>
+  <!-- Bat handle shadow -->
+  <ellipse cx="200" cy="850" rx="45" ry="12" fill="#1a0000" opacity="0.6"/>
+  <!-- Bat body -->
+  <path d="M190 120 Q188 200 185 350 Q182 500 178 600 Q176 650 175 700 Q174 750 176 780 Q178 810 185 830 Q192 845 200 850 Q208 845 215 830 Q222 810 224 780 Q226 750 225 700 Q224 650 222 600 Q218 500 215 350 Q212 200 210 120 Z" fill="#3d2b1f" stroke="#2a1a10" stroke-width="1"/>
+  <!-- Wood grain lines -->
+  <path d="M195 150 Q193 300 191 500 Q189 650 190 780" fill="none" stroke="#4a3626" stroke-width="0.5" opacity="0.5"/>
+  <path d="M202 130 Q200 280 198 480 Q197 630 198 800" fill="none" stroke="#4a3626" stroke-width="0.3" opacity="0.4"/>
+  <path d="M207 140 Q206 290 205 490 Q204 640 205 790" fill="none" stroke="#4a3626" stroke-width="0.4" opacity="0.3"/>
+  <!-- Bat knob top -->
+  <ellipse cx="200" cy="118" rx="16" ry="8" fill="#3d2b1f" stroke="#2a1a10" stroke-width="1"/>
+  <ellipse cx="200" cy="115" rx="14" ry="6" fill="#4a3626"/>
+  <!-- Barbed wire wrapping -->
+  <g stroke="#555" stroke-width="1.2" fill="none" opacity="0.8">
+    <path d="M175 620 Q155 635 178 650 Q220 635 225 650 Q240 665 222 680"/>
+    <path d="M222 680 Q200 695 178 680 Q155 695 175 710"/>
+    <path d="M175 710 Q195 725 225 710 Q245 725 222 740"/>
+    <path d="M222 740 Q200 755 178 740 Q158 755 175 770"/>
+    <path d="M175 770 Q195 785 225 770 Q240 785 222 800"/>
+  </g>
+  <!-- Barbed wire barbs -->
+  <g stroke="#666" stroke-width="0.8" fill="none">
+    <line x1="165" y1="630" x2="158" y2="623"/><line x1="165" y1="630" x2="158" y2="637"/>
+    <line x1="235" y1="650" x2="242" y2="643"/><line x1="235" y1="650" x2="242" y2="657"/>
+    <line x1="165" y1="700" x2="158" y2="693"/><line x1="165" y1="700" x2="158" y2="707"/>
+    <line x1="235" y1="720" x2="242" y2="713"/><line x1="235" y1="720" x2="242" y2="727"/>
+    <line x1="165" y1="760" x2="158" y2="753"/><line x1="165" y1="760" x2="158" y2="767"/>
+    <line x1="230" y1="780" x2="237" y2="773"/><line x1="230" y1="780" x2="237" y2="787"/>
+  </g>
+  <!-- Blood drips at base -->
+  <path d="M185 845 Q183 860 186 870 Q188 875 185 880" stroke="none" fill="#8b0000" opacity="0.7"/>
+  <path d="M195 848 Q194 865 196 878 Q197 885 194 895" stroke="none" fill="#6b0000" opacity="0.5"/>
+  <path d="M210 846 Q212 858 210 868" stroke="none" fill="#8b0000" opacity="0.6"/>
+  <ellipse cx="195" cy="852" rx="25" ry="5" fill="#5a0000" opacity="0.4"/>
+  <!-- Blood splatter on barrel -->
+  <circle cx="192" cy="400" r="3" fill="#8b0000" opacity="0.3"/>
+  <circle cx="208" cy="380" r="2" fill="#6b0000" opacity="0.25"/>
+  <circle cx="185" cy="450" r="4" fill="#8b0000" opacity="0.2"/>
+  <circle cx="215" cy="330" r="2.5" fill="#6b0000" opacity="0.15"/>
+</svg>

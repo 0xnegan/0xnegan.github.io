@@ -4,49 +4,74 @@ order: 3
 title: Hall of Fame
 ---
 
-## Bug Bounty & Web Security
+## `$ cat /etc/0xnegan/stats`
 
 <div class="stat-grid">
-  <div class="stat-card"><span class="stat-number">100+</span><span class="stat-label">Total Vulnerabilities</span></div>
-  <div class="stat-card"><span class="stat-number">30+</span><span class="stat-label">Programs Targeted</span></div>
-  <div class="stat-card"><span class="stat-number">5+</span><span class="stat-label">Hall of Fame Entries</span></div>
+  <div class="stat-card"><span class="stat-number">100+</span><span class="stat-label">Vulnerabilities Discovered</span></div>
+  <div class="stat-card"><span class="stat-number">5+</span><span class="stat-label">Hall of Fame</span></div>
+  <div class="stat-card"><span class="stat-number">#1</span><span class="stat-label">CyShield CTF 2024</span></div>
+  <div class="stat-card"><span class="stat-number">$60M+</span><span class="stat-label">Prevented Losses</span></div>
+  <div class="stat-card"><span class="stat-number">54+</span><span class="stat-label">Web3 Findings</span></div>
+  <div class="stat-card"><span class="stat-number">27</span><span class="stat-label">Single Protocol Record</span></div>
+  <div class="stat-card"><span class="stat-number">2K+</span><span class="stat-label">Community Mentored</span></div>
+  <div class="stat-card"><span class="stat-number">3</span><span class="stat-label">International Teams Led</span></div>
 </div>
+
+---
+
+## `$ cat certifications.txt`
+
+<span class="cert-badge">CRTO — Certified Red Team Operator</span>
+<span class="cert-badge">COPO — Certified Offensive Phishing Operator</span>
+<span class="cert-badge">CORA — OSINT Research Analyst</span>
+<span class="cert-badge">HTB AI Red Teamer (in progress)</span>
+
+**Training:** OSCP content (RedNexus) · eWAPT/eWAPTx · PortSwigger Academy (all labs) · Hack The Box (most labs) · MITRE ATT&CK · PTES · Programming Hub (Google Partner) — Hacking, Advanced Hacking, Security Fundamentals
+
+---
+
+## Web Application & API Security
 
 ### Hall of Fame
 
-| Rank | Platform | Key Findings |
+| Rank | Target | Critical Findings |
 |---:|---|---|
-| **#1** | **Shadow.pc** | API key → admin telemetry takeover, session management, email bombing, server misconfig, directory disclosure |
-| **Top 5** | **BugCrowd BBP** | P1 session re-auth bypass — any valid DB password accesses any account |
-| **Top 5** | **GeoComply** | XSS, private key leak on JWKS, admin cred disclosure, email bombing |
-| **Top 7** | **LastPass** | Race condition + exposed API key → data manipulation |
-| **Ack'd** | **Tesla Motors** | CORS misconfiguration |
-| **Recent** | **Hi5 Chatbot** | Prompt injection → URL spoofing → phishing chain |
+| **#1** | **Shadow.pc** | Exposed API key → admin telemetry takeover + internal DoS. Improper session management on password change. Email bombing via missing rate limiting. Server misconfiguration — frontend-only validation bypass via Burp. Directory brute-force information disclosure. |
+| **Top 5** | **BugCrowd BBP** | P1 — Session re-authentication bypass: any valid password in the database could access any account session. |
+| **Top 5** | **GeoComply** | Reflected XSS. Private key leak on JWKS endpoint response. Admin credentials exposed via directory enumeration. Email bombing on `/resetpassword`. |
+| **Top 7** | **LastPass** | Race condition in community section allowing duplicate entries. Exposed API key → unauthorized data manipulation. |
+| **Ack'd** | **Tesla Motors** | CORS misconfiguration enabling cross-origin attacks. |
+| **Recent** | **Hi5 Chatbot** | Prompt injection → URL spoofing → phishing on major platform with AI chatbot agent. |
 
-### Additional Targets
+### Additional Programs
 
-T-Mobile (Open Redirect, XSS+CSRF) · ShutterStock (HTML injection, XSS) · Easyship (IDOR, Race Condition bypassing premium tier, XSS) · Enterprise Management App (JWT `alg:none` → admin access, broken access control) · Finance Platform (ATO via response manipulation) · Russian Medical Platform (ATO via rate limit bypass, Azure subdomain takeover) · Moov Finance (ATO via reset password manipulation) · Chinese Programs (XSS in AI chat, XSS in upload) · YesWeHack (HTML injection)
+| Target | Findings |
+|---|---|
+| **T-Mobile** | Open Redirect. Reflected XSS chained with CSRF on API. |
+| **ShutterStock** | HTML injection in developer support portal. Reflected XSS in comment section. |
+| **Easyship** | IDOR → unauthorized data tampering. Race Condition bypassing premium plan from basic. Reflected XSS in unsanitized parameter. |
+| **Enterprise Management App** | JWT algorithm set to `none` → signature removal → admin privilege escalation. Broken access control on deletion function → vertical privilege escalation. Database information leak in JS files. |
+| **Finance Platform** | ATO from password reset response manipulation. |
+| **Russian Medical Platform** | Account takeover via missing rate limiting on `/hub/login`. Azure subdomain takeover. |
+| **Chinese Programs** | Reflected XSS in AI assistant chat. Reflected XSS in upload function in support chat. |
+| **Moov Finance** | Improper authentication — ATO using response manipulation on reset password + email change. |
+| **YesWeHack Program** | HTML injection. |
 
-**Platforms:** Top 700 YesWeHack · Top 700 HackenProof
+**Platform rankings:** Top 700 YesWeHack · Top 700 HackenProof
 
 ---
 
 ## Smart Contract Security (Web3)
 
-<div class="stat-grid">
-  <div class="stat-card"><span class="stat-number">54+</span><span class="stat-label">Confirmed Findings</span></div>
-  <div class="stat-card"><span class="stat-number">10+</span><span class="stat-label">High Severity</span></div>
-  <div class="stat-card"><span class="stat-number">27</span><span class="stat-label">Single Protocol Record</span></div>
-  <div class="stat-card"><span class="stat-number">$60M+</span><span class="stat-label">Prevented Losses</span></div>
-</div>
+54+ confirmed vulnerabilities across 10+ DeFi and infrastructure protocols. 27 vulnerabilities in a single protocol (RAAC Core Contracts). First to secure billion-dollar valuation protocols, preventing $60M+ in potential losses. Senior Auditor and Judge status on Sherlock.
 
 ### Platform Rankings
 
 | Platform | Handle | Findings | Highlights |
 |---|---|---|---|
-| **Sherlock** | [0xNegan](https://audits.sherlock.xyz/watson/0xNegan) | 10H · 28M | 1x 2nd · 2x 3rd · 6x Top 10 |
-| **Code4rena** | [Shinobi](https://code4rena.com/@shinobi) | 3H · 7M | Top 230 yearly |
-| **CodeHawks** | [CipherHawk](https://profiles.cyfrin.io/u/cipherhawk) | 4H · 16M · 13L | **#41** (12mo) · #441 all-time |
+| **Sherlock** | [0xNegan](https://audits.sherlock.xyz/watson/0xNegan) | 10 High · 28 Medium | 1x 2nd · 2x 3rd · 6x Top 10 |
+| **Code4rena** | [Shinobi](https://code4rena.com/@shinobi) | 3 High · 7 Medium | Top 230 yearly |
+| **CodeHawks** | [CipherHawk](https://profiles.cyfrin.io/u/cipherhawk) | 4 High · 16M · 13 Low | **#41** (12mo) · #441 all-time |
 | **Cantina** | RektOracle | 10 findings | Active |
 
 ### Protocol Wins
@@ -77,13 +102,12 @@ T-Mobile (Open Redirect, XSS+CSRF) · ShutterStock (HTML injection, XSS) · Easy
 
 | Event | Result |
 |---|---|
-| **CyShield CyCTF 2024** | **#1 qualifications (6 consecutive hours).** Led R3dNexus — 3 members assembled one day prior. First CTF ever. Top 20 overall national. |
+| **CyShield CyCTF 2024** | **#1 in qualifications for 6 consecutive hours.** Led Team R3dNexus — 3 members assembled one day prior. First CTF ever. Top 20 overall in national competition. |
 
 ---
 
 ## Leadership & Community
 
-- Led **3 international teams** across Lebanon, Singapore, India, South Africa, London, Japan, Saudi Arabia
-- Mentored **2,000+ professionals** via LinkedIn/Medium on web security, API pentesting, smart contract auditing
-- Collaborated with **Odyssey** (Top 1 Egypt, HackerOne) on pentesting framework development
-- Secured foreign startup applications through volunteer security assessments and professional disclosure
+- Led **3 international offensive security teams** — members across Lebanon, Singapore, India, South Africa, London, Japan, Saudi Arabia. Personally handled test planning, attack simulation, execution, PoC development, and reporting.
+- Mentored **2,000+ security professionals** via LinkedIn and Medium on web application security, API penetration testing, and smart contract auditing.
+- Volunteered in securing foreign startup applications through professional disclosure — documenting vulnerabilities and mitigations for both technical and non-technical audiences.
