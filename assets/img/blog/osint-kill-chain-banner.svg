@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="'Segoe UI', system-ui, sans-serif">
+  <rect width="1200" height="630" fill="#0c0e14"/>
+  <g opacity="0.03" stroke="#10b981" stroke-width="0.5"><line x1="0" y1="60" x2="1200" y2="60"/><line x1="0" y1="120" x2="1200" y2="120"/><line x1="0" y1="180" x2="1200" y2="180"/><line x1="0" y1="240" x2="1200" y2="240"/><line x1="0" y1="300" x2="1200" y2="300"/><line x1="0" y1="360" x2="1200" y2="360"/><line x1="0" y1="420" x2="1200" y2="420"/><line x1="0" y1="480" x2="1200" y2="480"/></g>
+  <text x="600" y="50" text-anchor="middle" font-size="13" fill="#10b981" opacity="0.5" font-style="italic" letter-spacing="2">"Knock knock."</text>
+  <text x="600" y="110" text-anchor="middle" font-size="42" font-weight="800" fill="#ffffff" letter-spacing="3">THE OSINT KILL CHAIN</text>
+  <rect x="490" y="125" width="220" height="2" rx="1" fill="#10b981"/>
+  <text x="600" y="155" text-anchor="middle" font-size="14" fill="#94a3b8" letter-spacing="5">FROM A USERNAME TO A COMPLETE DOSSIER</text>
+  <!-- 7 phase boxes in a flow -->
+  <rect x="50" y="200" width="140" height="60" rx="4" fill="rgba(16,185,129,0.04)" stroke="#10b981" stroke-width="0.5"/>
+  <text x="120" y="224" text-anchor="middle" font-size="8" fill="#10b981" font-weight="700" letter-spacing="1">PHASE 1</text>
+  <text x="120" y="244" text-anchor="middle" font-size="9" fill="#fff">Target ID</text>
+  <line x1="190" y1="230" x2="210" y2="230" stroke="#10b981" stroke-width="0.5" opacity="0.4"/>
+  <rect x="215" y="200" width="140" height="60" rx="4" fill="rgba(59,130,246,0.04)" stroke="#3b82f6" stroke-width="0.5"/>
+  <text x="285" y="224" text-anchor="middle" font-size="8" fill="#3b82f6" font-weight="700" letter-spacing="1">PHASE 2</text>
+  <text x="285" y="244" text-anchor="middle" font-size="9" fill="#fff">Footprint Map</text>
+  <line x1="355" y1="230" x2="375" y2="230" stroke="#3b82f6" stroke-width="0.5" opacity="0.4"/>
+  <rect x="380" y="200" width="140" height="60" rx="4" fill="rgba(245,158,11,0.04)" stroke="#f59e0b" stroke-width="0.5"/>
+  <text x="450" y="224" text-anchor="middle" font-size="8" fill="#f59e0b" font-weight="700" letter-spacing="1">PHASE 3</text>
+  <text x="450" y="244" text-anchor="middle" font-size="9" fill="#fff">Infra Recon</text>
+  <line x1="520" y1="230" x2="540" y2="230" stroke="#f59e0b" stroke-width="0.5" opacity="0.4"/>
+  <rect x="545" y="200" width="140" height="60" rx="4" fill="rgba(139,92,246,0.04)" stroke="#8b5cf6" stroke-width="0.5"/>
+  <text x="615" y="224" text-anchor="middle" font-size="8" fill="#8b5cf6" font-weight="700" letter-spacing="1">PHASE 4</text>
+  <text x="615" y="244" text-anchor="middle" font-size="9" fill="#fff">Metadata</text>
+  <line x1="685" y1="230" x2="705" y2="230" stroke="#8b5cf6" stroke-width="0.5" opacity="0.4"/>
+  <rect x="710" y="200" width="140" height="60" rx="4" fill="rgba(239,68,68,0.04)" stroke="#ef4444" stroke-width="0.5"/>
+  <text x="780" y="224" text-anchor="middle" font-size="8" fill="#ef4444" font-weight="700" letter-spacing="1">PHASE 5</text>
+  <text x="780" y="244" text-anchor="middle" font-size="9" fill="#fff">Credential Leaks</text>
+  <line x1="850" y1="230" x2="870" y2="230" stroke="#ef4444" stroke-width="0.5" opacity="0.4"/>
+  <rect x="875" y="200" width="140" height="60" rx="4" fill="rgba(236,72,153,0.04)" stroke="#ec4899" stroke-width="0.5"/>
+  <text x="945" y="224" text-anchor="middle" font-size="8" fill="#ec4899" font-weight="700" letter-spacing="1">PHASE 6</text>
+  <text x="945" y="244" text-anchor="middle" font-size="9" fill="#fff">Crypto Tracing</text>
+  <line x1="1015" y1="230" x2="1035" y2="230" stroke="#ec4899" stroke-width="0.5" opacity="0.4"/>
+  <rect x="1040" y="200" width="110" height="60" rx="4" fill="rgba(16,185,129,0.06)" stroke="#10b981" stroke-width="0.8"/>
+  <text x="1095" y="224" text-anchor="middle" font-size="8" fill="#10b981" font-weight="700" letter-spacing="1">PHASE 7</text>
+  <text x="1095" y="244" text-anchor="middle" font-size="9" fill="#fff">Intel Report</text>
+  <!-- Tool grid below -->
+  <rect x="50" y="300" width="350" height="150" rx="6" fill="rgba(16,185,129,0.02)" stroke="rgba(16,185,129,0.1)" stroke-width="0.5"/>
+  <text x="225" y="322" text-anchor="middle" font-size="10" fill="#10b981" font-weight="700" letter-spacing="2">COLLECTION TOOLS</text>
+  <text x="68" y="346" font-size="9" fill="#fff">Sherlock / Maigret</text><text x="260" y="346" font-size="9" fill="#555">Username correlation</text>
+  <text x="68" y="366" font-size="9" fill="#fff">SpiderFoot / Maltego</text><text x="260" y="366" font-size="9" fill="#555">Automated OSINT</text>
+  <text x="68" y="386" font-size="9" fill="#fff">Shodan / Censys</text><text x="260" y="386" font-size="9" fill="#555">Device indexing</text>
+  <text x="68" y="406" font-size="9" fill="#fff">ExifTool</text><text x="260" y="406" font-size="9" fill="#555">Metadata extraction</text>
+  <text x="68" y="426" font-size="9" fill="#fff">Google Dorks</text><text x="260" y="426" font-size="9" fill="#555">Advanced search</text>
+  <rect x="425" y="300" width="350" height="150" rx="6" fill="rgba(59,130,246,0.02)" stroke="rgba(59,130,246,0.1)" stroke-width="0.5"/>
+  <text x="600" y="322" text-anchor="middle" font-size="10" fill="#3b82f6" font-weight="700" letter-spacing="2">ANALYSIS TOOLS</text>
+  <text x="443" y="346" font-size="9" fill="#fff">Maltego</text><text x="635" y="346" font-size="9" fill="#555">Link analysis graphs</text>
+  <text x="443" y="366" font-size="9" fill="#fff">crt.sh</text><text x="635" y="366" font-size="9" fill="#555">CT log subdomain enum</text>
+  <text x="443" y="386" font-size="9" fill="#fff">Blockchair / Etherscan</text><text x="635" y="386" font-size="9" fill="#555">Blockchain tracing</text>
+  <text x="443" y="406" font-size="9" fill="#fff">DeHashed / HIBP</text><text x="635" y="406" font-size="9" fill="#555">Breach discovery</text>
+  <text x="443" y="426" font-size="9" fill="#fff">ACH Framework</text><text x="635" y="426" font-size="9" fill="#555">Hypothesis analysis</text>
+  <rect x="800" y="300" width="350" height="150" rx="6" fill="rgba(239,68,68,0.02)" stroke="rgba(239,68,68,0.1)" stroke-width="0.5"/>
+  <text x="975" y="322" text-anchor="middle" font-size="10" fill="#ef4444" font-weight="700" letter-spacing="2">OPSEC LAYER</text>
+  <text x="818" y="346" font-size="9" fill="#fff">Sock Puppets</text><text x="1010" y="346" font-size="9" fill="#555">Research personas</text>
+  <text x="818" y="366" font-size="9" fill="#fff">Tor / VPN</text><text x="1010" y="366" font-size="9" fill="#555">Traffic isolation</text>
+  <text x="818" y="386" font-size="9" fill="#fff">VM Isolation</text><text x="1010" y="386" font-size="9" fill="#555">Environment control</text>
+  <text x="818" y="406" font-size="9" fill="#fff">Dirty Line</text><text x="1010" y="406" font-size="9" fill="#555">Network separation</text>
+  <text x="818" y="426" font-size="9" fill="#fff">Non-Attribution</text><text x="1010" y="426" font-size="9" fill="#555">Zero trace policy</text>
+  <!-- OPSEC bar -->
+  <rect x="50" y="480" width="1100" height="35" rx="4" fill="rgba(239,68,68,0.02)" stroke="rgba(239,68,68,0.08)" stroke-width="0.3"/>
+  <text x="600" y="502" text-anchor="middle" font-size="8" fill="#555" letter-spacing="1">COLLECTION → PROCESSING → ANALYSIS → DISSEMINATION → FEEDBACK</text>
+  <!-- Bottom branding -->
+  <text x="600" y="555" text-anchor="middle" font-size="20" fill="#fff" font-weight="700" letter-spacing="2">0xNegan</text>
+  <text x="600" y="578" text-anchor="middle" font-size="9" fill="#10b981" letter-spacing="3">CORA CERTIFIED · OSINT RESEARCH</text>
+  <text x="600" y="610" text-anchor="middle" font-size="8" fill="#333" letter-spacing="2">RED TEAM · CLOUD SECURITY · WEB3 · AI RED TEAMING</text>
+</svg>

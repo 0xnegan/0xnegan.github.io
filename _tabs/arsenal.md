@@ -52,7 +52,7 @@ Automated pentesting framework integrating:
 | Topic | Status | Category |
 |---|---|---|
 | Living Off the User — Post-Credential Phishing | **Published** | Red Team / Phishing |
-| The OSINT Kill Chain | Coming Soon | OSINT / Intelligence |
+| The OSINT Kill Chain | **Published** | OSINT / Intelligence |
 | AI Architecture Attacks — Data Poisoning to Privacy | Coming Soon | AI Red Teaming |
 | Multi-Cloud Red Teaming | Planned | Cloud Security |
 
